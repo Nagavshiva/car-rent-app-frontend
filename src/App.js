@@ -17,6 +17,7 @@ function App() {
           <Route path='/login' element={<Login/>}/>
           <Route path='/register' element={<Register/>}/>
           <Route path='/car/:carId' element={<Car/>}/>
+              <Route path='*' element={<h1>404 found </h1>}/>
         </Routes>
       </Router>
 
